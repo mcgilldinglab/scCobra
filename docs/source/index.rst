@@ -1,16 +1,19 @@
 Welcome to scCobra's documentation!
 ===================================
 
-**scCobra** is a Python library for batch correction and data harmonization
+**scCobra** is a deep learning-based model for single-cell data batch correction and data harmonization.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
+.. image:: _static/model.png
+   :width: 800
+   :alt: Model architecture
 
 Contents
 --------
 
 .. toctree::
+   :maxdepth: 2
+   :caption: Contents:
 
-   usage
+   install
+   tutorials
    api
