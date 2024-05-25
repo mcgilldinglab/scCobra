@@ -7,9 +7,6 @@ Welcome to scCobra's documentation!
    :width: 800
    :alt: Model architecture
 
-Contents
---------
-
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
