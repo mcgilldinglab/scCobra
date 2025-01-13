@@ -15,11 +15,11 @@ The rapid development of single-cell technologies underscores the need for more 
 **Step 1**: Create a conda environment for scCobra
 
 ```bash
-# Recommend you to use python above 3.9
+# Recommend you to use python above 3.10
 conda create -n scCobra conda-forge::python=3.9 bioconda::bioconductor-singlecellexperiment=1.20.0 conda-forge::r-seuratobject=4.1.3 conda-forge::r-seurat=4.3.0 bioconda::anndata2ri=1.1 conda-forge::rpy2=3.5.2 bioconda::r-signac bioconda::bioconductor-ensdb.hsapiens.v75 bioconda::bioconductor-biovizbaseconda-forge::r-irkernel conda-forge::ipykernel
 
 # Install scanpy scib episcanpy snapatac2
-pip install scanpy scib episcanpy snapatac2
+pip install scanpy scib
 # You can install addtional packages: https://scib.readthedocs.io/en/latest/index.html
 
 # Install pytorch
@@ -36,9 +36,10 @@ git clone https://github.com/GlancerZ/scCobra.git
 
 You can click the dataset name to download
 
-* [simulated dataset](https://figshare.com/ndownloader/files/33798263) contains 12097 cells with 9979 genes, has 7 cell types from 6 batches
-* [pancreas dataset](https://figshare.com/ndownloader/files/24539828) contains 16382 cells with 19093 genes, has 14 cell types from 9 batches
-* [Lung atlas dataset](https://figshare.com/ndownloader/files/24539942) contains 32472 cells with 15148 genes, has 17 cell types from 16 batches
+* [simulated dataset](https://figshare.com/ndownloader/files/33798263) contains 12097 cells, has 7 cell types from 6 batches
+* [pancreas dataset](https://figshare.com/ndownloader/files/24539828) contains 16382 cells, has 14 cell types from 9 batches
+* [Immune dataset](https://figshare.com/ndownloader/files/25717328) contains 33506 cells, has 16 cell types from 10 batches
+* [Lung atlas dataset](https://figshare.com/ndownloader/files/24539942) contains 32472 cells, has 17 cell types from 16 batches
 
 
 ## scCobra's Document:
