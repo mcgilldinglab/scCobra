@@ -3,7 +3,7 @@ Welcome to scCobra's documentation!
 
 **scCobra** is a deep learning-based model for single-cell data batch correction and data harmonization.
 
-.. image:: _static/model.png
+.. image:: _static/fig1.png
    :width: 800
    :alt: Model architecture
 
