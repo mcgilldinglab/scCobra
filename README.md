@@ -16,20 +16,20 @@ The rapid development of single-cell technologies underscores the need for more 
 
 ```bash
 # Recommend you to use python above 3.10
-conda create -n scCobra conda-forge::python=3.9 bioconda::bioconductor-singlecellexperiment=1.20.0 conda-forge::r-seuratobject=4.1.3 conda-forge::r-seurat=4.3.0 bioconda::anndata2ri=1.1 conda-forge::rpy2=3.5.2 bioconda::r-signac bioconda::bioconductor-ensdb.hsapiens.v75 bioconda::bioconductor-biovizbaseconda-forge::r-irkernel conda-forge::ipykernel
+conda create -n scCobra conda-forge::python=3.10 conda-forge::ipykernel 
 
-# Install scanpy scib episcanpy snapatac2
+# Install scanpy scib
 pip install scanpy scib
 # You can install addtional packages: https://scib.readthedocs.io/en/latest/index.html
 
 # Install pytorch
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip3 install torch torchvision torchaudio
 ``` 
 
 **Step 2**: Clone This Repo
 
 ```bash
-git clone https://github.com/GlancerZ/scCobra.git
+git clone https://github.com/mcgilldinglab/scCobra.git
 ```
 
 ## Data resources
