@@ -10,7 +10,7 @@ The ``scCobra`` package can be installed via the following commands:
 .. code-block:: bash
     :linenos:
 
-    conda create -n scCobra python=3.9
+    conda create -n scCobra python=3.10
     pip install scanpy torch scib
     git clone https://github.com/mcgilldinglab/scCobra.git
    
