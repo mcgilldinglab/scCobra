@@ -32,6 +32,10 @@ pip3 install torch torchvision torchaudio torch_optimizer
 git clone https://github.com/mcgilldinglab/scCobra.git
 ```
 
+## Installation
+
+Please refer run_integration.ipynb
+
 ## Data resources
 
 You can click the dataset name to download
