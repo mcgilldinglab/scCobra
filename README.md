@@ -32,7 +32,7 @@ pip3 install torch torchvision torchaudio torch_optimizer
 git clone https://github.com/mcgilldinglab/scCobra.git
 ```
 
-## Installation
+## Run
 
 Please refer run_integration.ipynb
 
