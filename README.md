@@ -23,7 +23,7 @@ pip install scanpy scib
 # You can install addtional packages: https://scib.readthedocs.io/en/latest/index.html
 
 # Install pytorch
-pip3 install torch torchvision torchaudio
+pip3 install torch torchvision torchaudio torch_optimizer
 ``` 
 
 **Step 2**: Clone This Repo
