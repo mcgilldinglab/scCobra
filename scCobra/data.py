@@ -270,7 +270,14 @@ def preprocessing_rna(
         
     if log: log.info('Batch specific maxabs scaling')
     # adata = batch_scale(adata, chunk_size=chunk_size)
-    adata.X = MaxAbsScaler().fit_transform(adata.X)
+
+    scaler = MaxAbsScaler()
+    X_scaled = scaler.fit_transform(X)
+    adata.X = X_scaled
+
+    adata.var['maxabs_max'] = scaler.max_abs_.astype(np.float32)
+    adata.var['maxabs_min'] = 0
+    
     if log: log.info('Processed dataset shape: {}'.format(adata.shape))
     return adata
 
