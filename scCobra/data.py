@@ -272,7 +272,7 @@ def preprocessing_rna(
     # adata = batch_scale(adata, chunk_size=chunk_size)
 
     scaler = MaxAbsScaler()
-    X_scaled = scaler.fit_transform(X)
+    X_scaled = scaler.fit_transform(adata.X)
     adata.X = X_scaled
 
     adata.var['maxabs_max'] = scaler.max_abs_.astype(np.float32)
